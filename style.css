@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #1e90ff;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup button {
+    padding: 12px 24px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup button:hover {
+    background-color: #0f75d1;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #777;
+  }
